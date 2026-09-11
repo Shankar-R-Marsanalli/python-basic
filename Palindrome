@@ -1,0 +1,8 @@
+word = input("enter a word:")
+rev = ""
+for i in word:
+  rev = i+rev
+if word == rev:
+  print("palindrom")
+else:
+  print("not a palindrom")
