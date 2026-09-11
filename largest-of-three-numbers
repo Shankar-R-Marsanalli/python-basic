@@ -1,0 +1,9 @@
+a = int(input("enter an integer value:"))
+b = int(input("enter an integer value:"))
+c = int(input("enter an integer value:"))
+if a > b > c :
+  print (a)
+elif b > a > c :
+  print(b)
+else:
+  print(c)
