@@ -1,0 +1,11 @@
+import math
+r = input("enter a number:")
+try:
+  n=float(r)
+  if n>0:
+    area = math.pi*n**2
+    print(f"area of circle is {area}")
+  else:
+    print("radius cannot be negative.")
+except ValueError:
+  print("invalid input")
