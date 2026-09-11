@@ -1,0 +1,10 @@
+n = input("enter a number:")
+num = type(n)
+if num == "str":
+  if int(num) == True:
+    if num%2 == 0:
+      print("even")
+    else:
+      print("odd")
+else:
+  print(f"number {n} is not an integer,please enter an integer.")
