@@ -1,0 +1,3 @@
+C = int(input("enter temperature in celceius:"))
+F = (C * 9/5) + 32
+print(F)
