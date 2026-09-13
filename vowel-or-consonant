@@ -1,0 +1,6 @@
+v = "aeiou"
+n = input("enter a character:")
+if n in v:
+  print(f"{n} is vowel")
+else:
+  print(f"{n} is consonant")
