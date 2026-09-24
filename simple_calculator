@@ -1,0 +1,19 @@
+a = float(input("enter a number>"))
+b =float(input("enter another number>"))
+operations = ["add","subtract","multiply","divide1","divide2","square","reminder"]
+i = input("enter a operation to perform >>")
+if i in operations:
+  if i =="add":
+    print(a+b)
+  elif i == "subtract":
+    print(a-b)
+  elif i == "multiply":
+    print(a*b)
+  elif i == "divide1":
+    print(a//b)
+  elif i == "divide2":
+    print(a/b)
+  elif i == "square":
+    print(a**b)
+  elif i == "reminder":
+    print(a%b)
